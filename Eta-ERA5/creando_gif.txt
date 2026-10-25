@@ -1,0 +1,10 @@
+Instala software imagemagick
+> sudo apt-get install imagemagick
+
+Dirigirte a la carpeta donde se encuentran tus imagenes pen formato .png 
+(por ejem:/home/labmet/Versoes/Figuras/INICIA_21AGO2023/CorteLat)
+
+cd /home/labmet/Versoes/Figuras/INICIA_21AGO2023/CorteLat
+convert -delay 60 -loop 0 *.png loop_corte.gif
+
+Se creará una imagen .gif (puedes personalizar la velocidad del movimiento con la opcion "-delay 30" )
